@@ -1,6 +1,8 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import "./App.css";
+import React from "react";
+
 
 function App() {
   const [showPopup, setShowPopup] = useState(false);
